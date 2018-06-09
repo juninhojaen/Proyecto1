@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Inscripción</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+	<h2 >REGISTRO ESTUDIANTIL</h2>
+<section id="container">
+	<form action="registro.php" method="post" name="registro">
+		<h3>DATOS PERSONALES</h3>
+		<input type="text" name="nombres" placeholder="nombres">
+		<input type="text" name="apellidos" placeholder="apellidos">
+		<input type="text" name="cédula" placeholder="cédula">
+		<input type="text" name="fecha_nacimiento" placeholder="fecha_nacimiento">
+		<input type="text" name="lugar_nacimiento" placeholder="lugar_nacimiento">
+		<input type="text" name="sexo" placeholder="sexo">
+		<input type="text" name="estatura" placeholder="estatura">
+		<input type="text" name="peso" placeholder="peso">
+		<input type="text" name="talla_camisa" placeholder="talla_camisa">
+		<input type="text" name="talla_pantalon" placeholder="talla_pantalon">
+		<input type="text" name="calzado" placeholder="calzado">
+		Lateralidad: 
+		<select name="lateralidad">
+			<option value="1">Izquierda</option>
+			<option value="2">Derecha</option>
+		</select>
+		Literal:
+		<select name="literal" >
+			<option value="1">A</option>
+			<option value="2">B</option>
+			<option value="3">C</option>
+			<option value="4">D</option>
+			<option value="5">E</option>
+		</select>
+	<h3>DATOS DE LOS PADRES</h3>
+	<input type="text" name="nombres" placeholder="nombres">
+	<input type="text" name="apellidos" placeholder="apellidos">
+	<input type="text" name="cedula" placeholder="cédula">
+	<input type="text" name="telefono" placeholder="teléfonos">
+	<input type="text" name="direccion" placeholder="dirección">
+	<input type="text" name="correo" placeholder="correo">
+	Grado de Instrucción:
+	<select name="grado_instruccion">
+		<option value="1">Primaria</option>
+		<option value="2">Secundaria</option>
+		<option value="3">Bachillerato</option>
+		<option value="4">Universitaria</option>
+	</select>
+	Ocupación:
+	<select name="Ocupación">
+		<option value="1">Área Ingenieria</option>
+		<option value="2">Área de la Educación</option>
+		<option value="3">Área de la Medicina</option>
+		<option value="4">Área Militar y Seguridad Ciudadana</option>
+		<option value="5">Empresario</option>
+		<option value="6">Comerciante</option>
+		<option value="7">Oficios del Hogar</option>
+		<option value="8">Oficios Generales</option>
+		<option value="9">Otros</option>
+	</select>
+	<h3>DATOS DEL REPRESENTANTE</h3>
+	<input type="text" name="nombres" placeholder="nombres">
+	<input type="text" name="apellidos" placeholder="apellidos">
+	<input type="text" name="cedula" placeholder="cédula">
+	<input type="text" name="teléfonos" placeholder="teléfonos">
+	<input type="text" name="dirección" placeholder="dirección">
+	<input type="text" name="correo" placeholder="correo">
+	Parentezco:
+	<select name="Parentezco">
+		<option value="1">Madre</option>
+		<option value="2">Padre</option>
+		<option value="3">Tio/a</option>
+		<option value="4">Abuelo/a</option>
+		<option value="5">Hermano/a</option>
+		<option value="6">Madrina/Padrino</option>
+	</select>
+
+		<h3>ESTUDIO SOCIO-ECONÓMICO</h3>
+		Grupo Familiar: 
+		<select name="grupo_familiar">
+			<option value="1">1 a 4</option>
+			<option value="2">5 a 8</option>
+			<option value="3">9 a 12</option>
+			<option value="4"> mas de 12</option>
+		</select>
+		Ingresos:
+		<select name="ingresos">
+			<option value="1">menos de sueldo mínimo</option>
+			<option value="2">sueldo mínimo</option>
+			<option value="3">doble del sueldo mínimo</option>
+			<option value="4">mas del doble del sueldo mínimo</option>
+		</select>
+		Egresos:
+		<select name="egresos">
+			<option value="1">menos de sueldo mínimo</option>
+			<option value="2">sueldo mínimo</option>
+			<option value="3">doble del sueldo mínimo</option>
+			<option value="4">mas del doble del sueldo mínimo</option>
+		</select>
+		Tipo de Vivienda:
+		<select name="tipo_vivienda">
+			<option value="1">Casa</option>
+			<option value="2">Apartamento</option>
+			<option value="3">Quinta</option>
+			<option value="4">Anexo</option>
+		</select>
+		Condición de la Vivienda:
+		<select name="condicion">
+			<option value="1">Propia</option>
+			<option value="2">Alquilada</option>
+			<option value="1">En cuido</option>
+			<option value="1">Otro</option>
+		</select>
+		Infraestructura:
+		<select name="infraestructura">
+			<option value="1">Bloque</option>
+			<option value="2">Barro</option>
+			<option value="3">Zinc</option>
+			<option value="4">Otro</option>
+		</select>
+		<h3>REGISTRO MEDICO</h3>
+		<input type="text" name="alergia" placeholder="alergias">
+		<input type="text" name="patologia" placeholder="patologias">
+		<input type="text" name="especialistas" placeholder="especialistas">
+		<input type="text" name="medicamentos" placeholder="medicamentos">
+		<input type="text" name="vacunas" placeholder="vacunas"><br><br>
+		<input type="submit" value="Registrar">
+		<input type="reset" value="Borrar">
+	</form>
+</section>
+</body>
+</html>
